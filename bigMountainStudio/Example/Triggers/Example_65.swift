@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct Example_65: View {
+    @State private var change: CGFloat = 50
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TitleText("Триггеры")
+            SubtitleText("Slider")
+            BannerText("При настройке слайдера может быть какой-то элемент пользовательского интерфейса, который вы изменяете, и который может быть анимирован.", backColor: .green, textColor: .white)
+            
+            HStack(spacing: 0) {
+                Color.blue
+                    .frame(width: change)
+                Color.green
+            }
+            .padding(.vertical)
+            .animation(.default)
+            
+            Slider(value: $change, in: 0...410, step: 1)
+                .padding(.horizontal)
+        }
     }
 }
 
