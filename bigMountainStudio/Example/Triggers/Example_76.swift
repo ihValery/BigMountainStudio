@@ -8,13 +8,37 @@
 import SwiftUI
 
 struct Example_76: View {
-    @State private var changeDegress = 0
+    @State private var changeDegress: Double = 0
     
     var body: some View {
         VStack {
             TitleText("Триггеры")
             SubtitleText("Rotation Gesture")
             BannerText("Используйте жест вращения для изменения угла обзора, и анимация сгладит эффект вращения.", backColor: .green, textColor: .white)
+            Spacer()
+            
+            ZStack {
+                Image(systemName: "gear")
+                    .font(.system(size: 300))
+                    .rotationEffect(.degrees(changeDegress))
+                    .offset(y: -80)
+                    .gesture(RotationGesture()
+                                .onChanged({ angle in
+                                    changeDegress = angle.degrees
+                                }))
+                
+                Image(systemName: "gear")
+                    .font(.system(size: 150))
+                    .rotationEffect(.degrees(-changeDegress))
+                    .offset(x: 105, y: 125)
+               
+                Image(systemName: "gear")
+                    .font(.system(size: 100))
+                    .rotationEffect(.degrees(changeDegress))
+                    .offset(x: 20, y: 220)
+            }
+            .animation(.default)
+            .foregroundColor(.green)
             Spacer()
         }
     }
