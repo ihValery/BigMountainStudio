@@ -10,6 +10,14 @@
 		80652858265FE04C0001F203 /* Example_61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80652857265FE04C0001F203 /* Example_61.swift */; };
 		8065285D265FE1CC0001F203 /* Example_63.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285C265FE1CC0001F203 /* Example_63.swift */; };
 		8065285F265FF7920001F203 /* Example_65.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285E265FF7920001F203 /* Example_65.swift */; };
+		80652861266000390001F203 /* Example_66.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80652860266000390001F203 /* Example_66.swift */; };
+		806528652660033F0001F203 /* Example_67.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806528642660033F0001F203 /* Example_67.swift */; };
+		8065286726600BC50001F203 /* Example_68.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065286626600BC50001F203 /* Example_68.swift */; };
+		806528692660109C0001F203 /* Example_69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806528682660109C0001F203 /* Example_69.swift */; };
+		8065286B26601B0A0001F203 /* Example_70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065286A26601B0A0001F203 /* Example_70.swift */; };
+		8065286D266025890001F203 /* Example_73.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065286C266025890001F203 /* Example_73.swift */; };
+		8065286F2660CB130001F203 /* Example_75.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065286E2660CB130001F203 /* Example_75.swift */; };
+		806528712660CDB10001F203 /* Example_76.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806528702660CDB10001F203 /* Example_76.swift */; };
 		809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */; };
 		809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A39265EA2B80048D658 /* ContentView.swift */; };
 		809A4A3C265EA2BB0048D658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809A4A3B265EA2BB0048D658 /* Assets.xcassets */; };
@@ -37,6 +45,14 @@
 		80652857265FE04C0001F203 /* Example_61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_61.swift; sourceTree = "<group>"; };
 		8065285C265FE1CC0001F203 /* Example_63.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_63.swift; sourceTree = "<group>"; };
 		8065285E265FF7920001F203 /* Example_65.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_65.swift; sourceTree = "<group>"; };
+		80652860266000390001F203 /* Example_66.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_66.swift; sourceTree = "<group>"; };
+		806528642660033F0001F203 /* Example_67.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_67.swift; sourceTree = "<group>"; };
+		8065286626600BC50001F203 /* Example_68.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_68.swift; sourceTree = "<group>"; };
+		806528682660109C0001F203 /* Example_69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_69.swift; sourceTree = "<group>"; };
+		8065286A26601B0A0001F203 /* Example_70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_70.swift; sourceTree = "<group>"; };
+		8065286C266025890001F203 /* Example_73.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_73.swift; sourceTree = "<group>"; };
+		8065286E2660CB130001F203 /* Example_75.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_75.swift; sourceTree = "<group>"; };
+		806528702660CDB10001F203 /* Example_76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_76.swift; sourceTree = "<group>"; };
 		809A4A34265EA2B80048D658 /* bigMountainStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigMountainStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigMountainStudioApp.swift; sourceTree = "<group>"; };
 		809A4A39265EA2B80048D658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +95,14 @@
 				80652857265FE04C0001F203 /* Example_61.swift */,
 				8065285C265FE1CC0001F203 /* Example_63.swift */,
 				8065285E265FF7920001F203 /* Example_65.swift */,
+				80652860266000390001F203 /* Example_66.swift */,
+				806528642660033F0001F203 /* Example_67.swift */,
+				8065286626600BC50001F203 /* Example_68.swift */,
+				806528682660109C0001F203 /* Example_69.swift */,
+				8065286A26601B0A0001F203 /* Example_70.swift */,
+				8065286C266025890001F203 /* Example_73.swift */,
+				8065286E2660CB130001F203 /* Example_75.swift */,
+				806528702660CDB10001F203 /* Example_76.swift */,
 			);
 			path = Triggers;
 			sourceTree = "<group>";
@@ -238,19 +262,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8065286D266025890001F203 /* Example_73.swift in Sources */,
 				809A4A7E265F09C40048D658 /* Example_40.swift in Sources */,
 				809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */,
 				809A4A6C265EEF920048D658 /* Example_30.swift in Sources */,
+				806528652660033F0001F203 /* Example_67.swift in Sources */,
 				809A4A6E265EF3310048D658 /* Example_31.swift in Sources */,
 				8065285D265FE1CC0001F203 /* Example_63.swift in Sources */,
+				8065286726600BC50001F203 /* Example_68.swift in Sources */,
 				8065285F265FF7920001F203 /* Example_65.swift in Sources */,
 				809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */,
 				809A4A70265EF5DC0048D658 /* Example_32.swift in Sources */,
+				8065286F2660CB130001F203 /* Example_75.swift in Sources */,
 				809A4A72265EF8440048D658 /* Example_33.swift in Sources */,
+				8065286B26601B0A0001F203 /* Example_70.swift in Sources */,
 				809A4A4A265EAAB60048D658 /* Example_12_challenge.swift in Sources */,
 				809A4A7C265F068C0048D658 /* Example_39.swift in Sources */,
 				809A4A48265EA42A0048D658 /* structForText.swift in Sources */,
+				806528712660CDB10001F203 /* Example_76.swift in Sources */,
 				809A4A78265EFC7E0048D658 /* Example_36.swift in Sources */,
+				80652861266000390001F203 /* Example_66.swift in Sources */,
 				809A4A6A265ECA8F0048D658 /* Example_28.swift in Sources */,
 				809A4A84265F1A3F0048D658 /* Example_56_challenge.swift in Sources */,
 				809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */,
@@ -258,6 +289,7 @@
 				809A4A80265F0D430048D658 /* Example_43.swift in Sources */,
 				809A4A7A265F05170048D658 /* Example_38.swift in Sources */,
 				80652858265FE04C0001F203 /* Example_61.swift in Sources */,
+				806528692660109C0001F203 /* Example_69.swift in Sources */,
 				809A4A82265F124E0048D658 /* Example_45.swift in Sources */,
 				809A4A76265EFA000048D658 /* Example_35.swift in Sources */,
 			);
