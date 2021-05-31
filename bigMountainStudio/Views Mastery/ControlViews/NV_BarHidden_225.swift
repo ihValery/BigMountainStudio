@@ -28,9 +28,9 @@ struct NV_BarHidden_225: View {
                         .padding()
                     Spacer()
                 }
-
-                .navigationBarHidden(show)
             }
+            //Обратите внимание, что модификатор navigationBarHidden находится ВНУТРИ NavigationView
+            .navigationBarHidden(show)
             .ignoresSafeArea(edges: .bottom)
         }
     }

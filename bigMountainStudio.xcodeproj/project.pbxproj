@@ -43,6 +43,12 @@
 		80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1190E2664F9F90077153D /* NV_Introduction_221.swift */; };
 		80F11911266501580077153D /* NV_DisplayMode_224.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F11910266501580077153D /* NV_DisplayMode_224.swift */; };
 		80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F11912266502380077153D /* NV_BarHidden_225.swift */; };
+		80F11915266504330077153D /* NV_BarItems_226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F11914266504330077153D /* NV_BarItems_226.swift */; };
+		80F1191726650BF30077153D /* NV_BarBackButtonHidden_228.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191626650BF30077153D /* NV_BarBackButtonHidden_228.swift */; };
+		80F1191926652E0B0077153D /* NL_Introduction_236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191826652E0B0077153D /* NL_Introduction_236.swift */; };
+		80F1191B26652FFB0077153D /* NL_Customization_237.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191A26652FFB0077153D /* NL_Customization_237.swift */; };
+		80F1191D2665336D0077153D /* NL_WithisActive_238.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191C2665336D0077153D /* NL_WithisActive_238.swift */; };
+		80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191E2665393F0077153D /* NL_PopWithIsActive_240.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +90,12 @@
 		80F1190E2664F9F90077153D /* NV_Introduction_221.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_Introduction_221.swift; sourceTree = "<group>"; };
 		80F11910266501580077153D /* NV_DisplayMode_224.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_DisplayMode_224.swift; sourceTree = "<group>"; };
 		80F11912266502380077153D /* NV_BarHidden_225.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_BarHidden_225.swift; sourceTree = "<group>"; };
+		80F11914266504330077153D /* NV_BarItems_226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_BarItems_226.swift; sourceTree = "<group>"; };
+		80F1191626650BF30077153D /* NV_BarBackButtonHidden_228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_BarBackButtonHidden_228.swift; sourceTree = "<group>"; };
+		80F1191826652E0B0077153D /* NL_Introduction_236.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_Introduction_236.swift; sourceTree = "<group>"; };
+		80F1191A26652FFB0077153D /* NL_Customization_237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_Customization_237.swift; sourceTree = "<group>"; };
+		80F1191C2665336D0077153D /* NL_WithisActive_238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_WithisActive_238.swift; sourceTree = "<group>"; };
+		80F1191E2665393F0077153D /* NL_PopWithIsActive_240.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_PopWithIsActive_240.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +229,12 @@
 				80F1190E2664F9F90077153D /* NV_Introduction_221.swift */,
 				80F11910266501580077153D /* NV_DisplayMode_224.swift */,
 				80F11912266502380077153D /* NV_BarHidden_225.swift */,
+				80F11914266504330077153D /* NV_BarItems_226.swift */,
+				80F1191626650BF30077153D /* NV_BarBackButtonHidden_228.swift */,
+				80F1191826652E0B0077153D /* NL_Introduction_236.swift */,
+				80F1191A26652FFB0077153D /* NL_Customization_237.swift */,
+				80F1191C2665336D0077153D /* NL_WithisActive_238.swift */,
+				80F1191E2665393F0077153D /* NL_PopWithIsActive_240.swift */,
 			);
 			path = ControlViews;
 			sourceTree = "<group>";
@@ -298,9 +316,11 @@
 				80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */,
 				809A4A6E265EF3310048D658 /* Example_31.swift in Sources */,
 				8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */,
+				80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */,
 				8065286726600BC50001F203 /* OnAppear.swift in Sources */,
 				8065285F265FF7920001F203 /* Sliders.swift in Sources */,
 				809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */,
+				80F1191926652E0B0077153D /* NL_Introduction_236.swift in Sources */,
 				809A4A70265EF5DC0048D658 /* Example_32.swift in Sources */,
 				8065286F2660CB130001F203 /* MagnificationGesture_75.swift in Sources */,
 				809A4A72265EF8440048D658 /* Example_33.swift in Sources */,
@@ -308,8 +328,11 @@
 				809A4A4A265EAAB60048D658 /* Example_12_challenge.swift in Sources */,
 				809A4A7C265F068C0048D658 /* Example_39.swift in Sources */,
 				809A4A48265EA42A0048D658 /* structForText.swift in Sources */,
+				80F1191726650BF30077153D /* NV_BarBackButtonHidden_228.swift in Sources */,
+				80F1191B26652FFB0077153D /* NL_Customization_237.swift in Sources */,
 				806528712660CDB10001F203 /* RotationGesture_76.swift in Sources */,
 				80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */,
+				80F1191D2665336D0077153D /* NL_WithisActive_238.swift in Sources */,
 				809A4A78265EFC7E0048D658 /* Example_36.swift in Sources */,
 				806528732660DAD50001F203 /* ScrollView_77.swift in Sources */,
 				80652861266000390001F203 /* Steppers.swift in Sources */,
@@ -324,6 +347,7 @@
 				809A4A82265F124E0048D658 /* Example_45.swift in Sources */,
 				80F11911266501580077153D /* NV_DisplayMode_224.swift in Sources */,
 				809A4A76265EFA000048D658 /* Example_35.swift in Sources */,
+				80F11915266504330077153D /* NV_BarItems_226.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
