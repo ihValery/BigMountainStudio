@@ -1,5 +1,5 @@
 //
-//  Example_76.swift
+//  RotationGesture_76.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 28.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_76: View {
+struct RotationGesture_76: View {
     @State private var changeDegress: Double = 0
     
     var body: some View {
@@ -46,6 +46,6 @@ struct Example_76: View {
 
 struct Example_76_Previews: PreviewProvider {
     static var previews: some View {
-        Example_76()
+        RotationGesture_76()
     }
 }

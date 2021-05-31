@@ -1,5 +1,5 @@
 //
-//  Example_66.swift
+//  Steppers.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_66: View {
+struct Steppers: View {
     @State private var stepperValue: CGFloat = 1
     
     var body: some View {
@@ -36,6 +36,6 @@ struct Example_66: View {
 
 struct Example_66_Previews: PreviewProvider {
     static var previews: some View {
-        Example_66()
+        Steppers()
     }
 }

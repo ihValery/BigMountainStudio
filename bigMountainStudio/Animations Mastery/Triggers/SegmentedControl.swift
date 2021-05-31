@@ -1,5 +1,5 @@
 //
-//  Example_63.swift
+//  SegmentedControl.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_63: View {
+struct SegmentedControl: View {
     @State private var segment = 0
     
     var body: some View {
@@ -48,6 +48,6 @@ struct Example_63: View {
 
 struct Example_63_Previews: PreviewProvider {
     static var previews: some View {
-        Example_63()
+        SegmentedControl()
     }
 }

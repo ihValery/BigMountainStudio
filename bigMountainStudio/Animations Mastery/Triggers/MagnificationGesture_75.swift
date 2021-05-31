@@ -1,5 +1,5 @@
 //
-//  Example_75.swift
+//  MagnificationGesture_75.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 28.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_75: View {
+struct MagnificationGesture_75: View {
     @GestureState private var scale: CGFloat = 0
     @State private var endScale: CGFloat = 1
     
@@ -40,6 +40,6 @@ struct Example_75: View {
 
 struct Example_75_Previews: PreviewProvider {
     static var previews: some View {
-        Example_75()
+        MagnificationGesture_75()
     }
 }

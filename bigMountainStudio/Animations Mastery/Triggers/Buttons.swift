@@ -1,5 +1,5 @@
 //
-//  Example_61.swift
+//  Buttons.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_61: View {
+struct Buttons: View {
     @State private var change = false
     
     var body: some View {
@@ -65,6 +65,6 @@ struct Example_61: View {
 
 struct Example_61_Previews: PreviewProvider {
     static var previews: some View {
-        Example_61()
+        Buttons()
     }
 }

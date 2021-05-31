@@ -1,5 +1,5 @@
 //
-//  Example_70.swift
+//  DragGesture_71.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_70: View {
+struct DragGesture_71: View {
     @State private var currentMenuY: CGFloat = 0
     //Сохраняет значения, связанные с жестом, который выполняется в данный момент,
     //как далеко вы смахнули, за исключением того, что оно будет сброшено до значения по умолчанию,
@@ -57,6 +57,6 @@ struct Example_70: View {
 
 struct Example_70_Previews: PreviewProvider {
     static var previews: some View {
-        Example_70()
+        DragGesture_71()
     }
 }

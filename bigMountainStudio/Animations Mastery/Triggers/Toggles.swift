@@ -1,5 +1,5 @@
 //
-//  Example_67.swift
+//  Toggles.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_67: View {
+struct Toggles: View {
     @State private var isOn = false
     @State private var extraText = ""
     @State private var extraSlider: CGFloat = 50
@@ -47,6 +47,6 @@ struct Example_67: View {
 
 struct Example_67_Previews: PreviewProvider {
     static var previews: some View {
-        Example_67()
+        Toggles()
     }
 }
