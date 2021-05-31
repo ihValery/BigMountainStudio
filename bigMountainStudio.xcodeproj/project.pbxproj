@@ -40,7 +40,9 @@
 		809A4A82265F124E0048D658 /* Example_45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A81265F124E0048D658 /* Example_45.swift */; };
 		809A4A84265F1A3F0048D658 /* Example_56_challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A83265F1A3F0048D658 /* Example_56_challenge.swift */; };
 		809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A85265F1FAD0048D658 /* Example_57_challenge.swift */; };
-		80F1190F2664F9F90077153D /* NavigationView_221.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1190E2664F9F90077153D /* NavigationView_221.swift */; };
+		80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1190E2664F9F90077153D /* NV_Introduction_221.swift */; };
+		80F11911266501580077153D /* NV_DisplayMode_224.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F11910266501580077153D /* NV_DisplayMode_224.swift */; };
+		80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F11912266502380077153D /* NV_BarHidden_225.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,7 +81,9 @@
 		809A4A81265F124E0048D658 /* Example_45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_45.swift; sourceTree = "<group>"; };
 		809A4A83265F1A3F0048D658 /* Example_56_challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_56_challenge.swift; sourceTree = "<group>"; };
 		809A4A85265F1FAD0048D658 /* Example_57_challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_57_challenge.swift; sourceTree = "<group>"; };
-		80F1190E2664F9F90077153D /* NavigationView_221.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView_221.swift; sourceTree = "<group>"; };
+		80F1190E2664F9F90077153D /* NV_Introduction_221.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_Introduction_221.swift; sourceTree = "<group>"; };
+		80F11910266501580077153D /* NV_DisplayMode_224.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_DisplayMode_224.swift; sourceTree = "<group>"; };
+		80F11912266502380077153D /* NV_BarHidden_225.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NV_BarHidden_225.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +214,9 @@
 		80F1190D2664F9B30077153D /* ControlViews */ = {
 			isa = PBXGroup;
 			children = (
-				80F1190E2664F9F90077153D /* NavigationView_221.swift */,
+				80F1190E2664F9F90077153D /* NV_Introduction_221.swift */,
+				80F11910266501580077153D /* NV_DisplayMode_224.swift */,
+				80F11912266502380077153D /* NV_BarHidden_225.swift */,
 			);
 			path = ControlViews;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */,
 				809A4A6C265EEF920048D658 /* Example_30.swift in Sources */,
 				806528652660033F0001F203 /* Toggles.swift in Sources */,
+				80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */,
 				809A4A6E265EF3310048D658 /* Example_31.swift in Sources */,
 				8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */,
 				8065286726600BC50001F203 /* OnAppear.swift in Sources */,
@@ -302,7 +309,7 @@
 				809A4A7C265F068C0048D658 /* Example_39.swift in Sources */,
 				809A4A48265EA42A0048D658 /* structForText.swift in Sources */,
 				806528712660CDB10001F203 /* RotationGesture_76.swift in Sources */,
-				80F1190F2664F9F90077153D /* NavigationView_221.swift in Sources */,
+				80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */,
 				809A4A78265EFC7E0048D658 /* Example_36.swift in Sources */,
 				806528732660DAD50001F203 /* ScrollView_77.swift in Sources */,
 				80652861266000390001F203 /* Steppers.swift in Sources */,
@@ -315,6 +322,7 @@
 				80652858265FE04C0001F203 /* Buttons.swift in Sources */,
 				806528692660109C0001F203 /* OnDisappear.swift in Sources */,
 				809A4A82265F124E0048D658 /* Example_45.swift in Sources */,
+				80F11911266501580077153D /* NV_DisplayMode_224.swift in Sources */,
 				809A4A76265EFA000048D658 /* Example_35.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
