@@ -49,6 +49,10 @@
 		80F1191B26652FFB0077153D /* NL_Customization_237.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191A26652FFB0077153D /* NL_Customization_237.swift */; };
 		80F1191D2665336D0077153D /* NL_WithisActive_238.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191C2665336D0077153D /* NL_WithisActive_238.swift */; };
 		80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1191E2665393F0077153D /* NL_PopWithIsActive_240.swift */; };
+		80F1192126654E020077153D /* NL_WithSelection_242.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1192026654E020077153D /* NL_WithSelection_242.swift */; };
+		80F119232665520A0077153D /* NL_ListWith_243.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F119222665520A0077153D /* NL_ListWith_243.swift */; };
+		80F11925266558470077153D /* NL_InToolbarItem_246.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F11924266558470077153D /* NL_InToolbarItem_246.swift */; };
+		80F1192726655A140077153D /* NL_Workaround_247.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1192626655A140077153D /* NL_Workaround_247.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +100,10 @@
 		80F1191A26652FFB0077153D /* NL_Customization_237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_Customization_237.swift; sourceTree = "<group>"; };
 		80F1191C2665336D0077153D /* NL_WithisActive_238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_WithisActive_238.swift; sourceTree = "<group>"; };
 		80F1191E2665393F0077153D /* NL_PopWithIsActive_240.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_PopWithIsActive_240.swift; sourceTree = "<group>"; };
+		80F1192026654E020077153D /* NL_WithSelection_242.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_WithSelection_242.swift; sourceTree = "<group>"; };
+		80F119222665520A0077153D /* NL_ListWith_243.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_ListWith_243.swift; sourceTree = "<group>"; };
+		80F11924266558470077153D /* NL_InToolbarItem_246.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_InToolbarItem_246.swift; sourceTree = "<group>"; };
+		80F1192626655A140077153D /* NL_Workaround_247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NL_Workaround_247.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +243,10 @@
 				80F1191A26652FFB0077153D /* NL_Customization_237.swift */,
 				80F1191C2665336D0077153D /* NL_WithisActive_238.swift */,
 				80F1191E2665393F0077153D /* NL_PopWithIsActive_240.swift */,
+				80F1192026654E020077153D /* NL_WithSelection_242.swift */,
+				80F119222665520A0077153D /* NL_ListWith_243.swift */,
+				80F11924266558470077153D /* NL_InToolbarItem_246.swift */,
+				80F1192626655A140077153D /* NL_Workaround_247.swift */,
 			);
 			path = ControlViews;
 			sourceTree = "<group>";
@@ -311,6 +323,7 @@
 				8065286D266025890001F203 /* LongPressGesture.swift in Sources */,
 				809A4A7E265F09C40048D658 /* Example_40.swift in Sources */,
 				809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */,
+				80F1192126654E020077153D /* NL_WithSelection_242.swift in Sources */,
 				809A4A6C265EEF920048D658 /* Example_30.swift in Sources */,
 				806528652660033F0001F203 /* Toggles.swift in Sources */,
 				80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */,
@@ -318,6 +331,7 @@
 				8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */,
 				80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */,
 				8065286726600BC50001F203 /* OnAppear.swift in Sources */,
+				80F1192726655A140077153D /* NL_Workaround_247.swift in Sources */,
 				8065285F265FF7920001F203 /* Sliders.swift in Sources */,
 				809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */,
 				80F1191926652E0B0077153D /* NL_Introduction_236.swift in Sources */,
@@ -326,6 +340,7 @@
 				809A4A72265EF8440048D658 /* Example_33.swift in Sources */,
 				8065286B26601B0A0001F203 /* DragGesture_71.swift in Sources */,
 				809A4A4A265EAAB60048D658 /* Example_12_challenge.swift in Sources */,
+				80F11925266558470077153D /* NL_InToolbarItem_246.swift in Sources */,
 				809A4A7C265F068C0048D658 /* Example_39.swift in Sources */,
 				809A4A48265EA42A0048D658 /* structForText.swift in Sources */,
 				80F1191726650BF30077153D /* NV_BarBackButtonHidden_228.swift in Sources */,
@@ -334,6 +349,7 @@
 				80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */,
 				80F1191D2665336D0077153D /* NL_WithisActive_238.swift in Sources */,
 				809A4A78265EFC7E0048D658 /* Example_36.swift in Sources */,
+				80F119232665520A0077153D /* NL_ListWith_243.swift in Sources */,
 				806528732660DAD50001F203 /* ScrollView_77.swift in Sources */,
 				80652861266000390001F203 /* Steppers.swift in Sources */,
 				809A4A6A265ECA8F0048D658 /* Example_28.swift in Sources */,
