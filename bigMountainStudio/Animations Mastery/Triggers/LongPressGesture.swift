@@ -1,5 +1,5 @@
 //
-//  Example_73.swift
+//  LongPressGesture.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_73: View {
+struct LongPressGesture: View {
     @State private var longPress = false
     @State private var doublePress = false
     
@@ -55,6 +55,6 @@ struct Example_73: View {
 
 struct Example_73_Previews: PreviewProvider {
     static var previews: some View {
-        Example_73()
+        LongPressGesture()
     }
 }

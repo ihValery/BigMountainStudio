@@ -1,5 +1,5 @@
 //
-//  Example_65.swift
+//  Sliders.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_65: View {
+struct Sliders: View {
     @State private var change: CGFloat = 50
     
     var body: some View {
@@ -32,6 +32,6 @@ struct Example_65: View {
 
 struct Example_65_Previews: PreviewProvider {
     static var previews: some View {
-        Example_65()
+        Sliders()
     }
 }

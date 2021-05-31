@@ -1,5 +1,5 @@
 //
-//  Example_68.swift
+//  OnAppear.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_68: View {
+struct OnAppear: View {
     @State private var expand = false
     
     var body: some View {
@@ -37,6 +37,6 @@ struct Example_68: View {
 
 struct Example_68_Previews: PreviewProvider {
     static var previews: some View {
-        Example_68()
+        OnAppear()
     }
 }

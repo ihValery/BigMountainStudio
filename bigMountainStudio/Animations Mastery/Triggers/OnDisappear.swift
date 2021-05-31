@@ -1,5 +1,5 @@
 //
-//  Example_69.swift
+//  OnDisappear.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 27.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_69: View {
+struct OnDisappear: View {
     @State private var showTip = false
     @State private var showButton = true
 
@@ -60,6 +60,6 @@ struct Example_69: View {
 
 struct Example_69_Previews: PreviewProvider {
     static var previews: some View {
-        Example_69()
+        OnDisappear()
     }
 }

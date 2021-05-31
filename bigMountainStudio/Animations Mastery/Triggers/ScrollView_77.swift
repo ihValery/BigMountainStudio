@@ -1,5 +1,5 @@
 //
-//  Example_77.swift
+//  ScrollView_77.swift
 //  bigMountainStudio
 //
 //  Created by Валерий Игнатьев on 28.05.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example_77: View {
+struct ScrollView_77: View {
     var body: some View {
         VStack {
             TitleText("Триггеры")
@@ -43,6 +43,6 @@ struct Example_77: View {
 
 struct Example_77_Previews: PreviewProvider {
     static var previews: some View {
-        Example_77()
+        ScrollView_77()
     }
 }
