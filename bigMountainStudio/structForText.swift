@@ -22,30 +22,49 @@ struct ButtonForExample: View {
     }
 }
 
+struct ButtonData: View {
+    var name: String
+    var action: () -> Void
+    
+    var body: some View {
+        Button(action: {
+            action()
+        }, label: {
+            Text(name)
+                .font(.title)
+                .foregroundColor(.orange)
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(Capsule().stroke(Color.orange, lineWidth: 2))
+                .padding(.horizontal)
+        })
+    }
+}
+
 struct TitleText: View {
     var title = ""
     
+    init(_ title: String) {
+        self.title = title
+    }
+
     var body: some View {
         Text(title)
             .font(.largeTitle)
-    }
-    
-    init(_ title: String) {
-        self.title = title
     }
 }
 
 struct SubtitleText: View {
     var subTitle = ""
     
+    init(_ subTitle: String) {
+        self.subTitle = subTitle
+    }
+
     var body: some View {
         Text(subTitle)
             .font(.title)
             .foregroundColor(.gray)
-    }
-    
-    init(_ subTitle: String) {
-        self.subTitle = subTitle
     }
 }
 
@@ -54,6 +73,12 @@ struct BannerText: View {
     var backColor: Color
     var textColor: Color
     
+    init(_ text: String, backColor: Color = .orange, textColor: Color = .primary) {
+        self.text = text
+        self.backColor = backColor
+        self.textColor = textColor
+    }
+    
     var body: some View {
         Text(text)
             .font(.title2)
@@ -61,11 +86,5 @@ struct BannerText: View {
             .padding()
             .background(backColor)
             .foregroundColor(textColor)
-    }
-    
-    init(_ text: String, backColor: Color = .orange, textColor: Color = .primary) {
-        self.text = text
-        self.backColor = backColor
-        self.textColor = textColor
     }
 }
