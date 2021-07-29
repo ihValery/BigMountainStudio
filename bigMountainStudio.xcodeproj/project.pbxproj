@@ -26,6 +26,10 @@
 		807A1CA226B336D900751B06 /* Two-Way Binding with Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CA126B336D900751B06 /* Two-Way Binding with Toggle.swift */; };
 		807A1CA426B339E200751B06 /* Two-Way Binding with Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CA326B339E200751B06 /* Two-Way Binding with Picker.swift */; };
 		807A1CA626B33E8D00751B06 /* State with Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CA526B33E8D00751B06 /* State with Modifiers.swift */; };
+		807A1CA826B356D000751B06 /* Working With Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CA726B356D000751B06 /* Working With Structs.swift */; };
+		807A1CAC26B35A0700751B06 /* Binding With Other Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CAB26B35A0700751B06 /* Binding With Other Views.swift */; };
+		807A1CAE26B35BE500751B06 /* Working With Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CAD26B35BE500751B06 /* Working With Classes.swift */; };
+		807A1CB026B35F6400751B06 /* Using Previews with @State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CAF26B35F6400751B06 /* Using Previews with @State.swift */; };
 		809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */; };
 		809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A39265EA2B80048D658 /* ContentView.swift */; };
 		809A4A3C265EA2BB0048D658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809A4A3B265EA2BB0048D658 /* Assets.xcassets */; };
@@ -82,6 +86,10 @@
 		807A1CA126B336D900751B06 /* Two-Way Binding with Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Way Binding with Toggle.swift"; sourceTree = "<group>"; };
 		807A1CA326B339E200751B06 /* Two-Way Binding with Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Way Binding with Picker.swift"; sourceTree = "<group>"; };
 		807A1CA526B33E8D00751B06 /* State with Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State with Modifiers.swift"; sourceTree = "<group>"; };
+		807A1CA726B356D000751B06 /* Working With Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Working With Structs.swift"; sourceTree = "<group>"; };
+		807A1CAB26B35A0700751B06 /* Binding With Other Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding With Other Views.swift"; sourceTree = "<group>"; };
+		807A1CAD26B35BE500751B06 /* Working With Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Working With Classes.swift"; sourceTree = "<group>"; };
+		807A1CAF26B35F6400751B06 /* Using Previews with @State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Using Previews with @State.swift"; sourceTree = "<group>"; };
 		809A4A34265EA2B80048D658 /* bigMountainStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigMountainStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigMountainStudioApp.swift; sourceTree = "<group>"; };
 		809A4A39265EA2B80048D658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +206,10 @@
 				807A1CA126B336D900751B06 /* Two-Way Binding with Toggle.swift */,
 				807A1CA326B339E200751B06 /* Two-Way Binding with Picker.swift */,
 				807A1CA526B33E8D00751B06 /* State with Modifiers.swift */,
+				807A1CA726B356D000751B06 /* Working With Structs.swift */,
+				807A1CAB26B35A0700751B06 /* Binding With Other Views.swift */,
+				807A1CAD26B35BE500751B06 /* Working With Classes.swift */,
+				807A1CAF26B35F6400751B06 /* Using Previews with @State.swift */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -367,6 +379,7 @@
 				806528652660033F0001F203 /* Toggles.swift in Sources */,
 				80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */,
 				809A4A6E265EF3310048D658 /* Example_31.swift in Sources */,
+				807A1CA826B356D000751B06 /* Working With Structs.swift in Sources */,
 				8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */,
 				80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */,
 				8065286726600BC50001F203 /* OnAppear.swift in Sources */,
@@ -383,6 +396,7 @@
 				80F11925266558470077153D /* NL_InToolbarItem_246.swift in Sources */,
 				809A4A7C265F068C0048D658 /* Example_39.swift in Sources */,
 				809A4A48265EA42A0048D658 /* structForText.swift in Sources */,
+				807A1CB026B35F6400751B06 /* Using Previews with @State.swift in Sources */,
 				80F1191726650BF30077153D /* NV_BarBackButtonHidden_228.swift in Sources */,
 				807A1CA626B33E8D00751B06 /* State with Modifiers.swift in Sources */,
 				80F1191B26652FFB0077153D /* NL_Customization_237.swift in Sources */,
@@ -390,6 +404,7 @@
 				80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */,
 				80F1191D2665336D0077153D /* NL_WithisActive_238.swift in Sources */,
 				807A1CA426B339E200751B06 /* Two-Way Binding with Picker.swift in Sources */,
+				807A1CAE26B35BE500751B06 /* Working With Classes.swift in Sources */,
 				809A4A78265EFC7E0048D658 /* Example_36.swift in Sources */,
 				80F119232665520A0077153D /* NL_ListWith_243.swift in Sources */,
 				806528732660DAD50001F203 /* ScrollView_77.swift in Sources */,
@@ -397,6 +412,7 @@
 				809A4A6A265ECA8F0048D658 /* Example_28.swift in Sources */,
 				807A1CA026B317FC00751B06 /* Two-Way Bindings using @State.swift in Sources */,
 				809A4A84265F1A3F0048D658 /* Example_56_challenge.swift in Sources */,
+				807A1CAC26B35A0700751B06 /* Binding With Other Views.swift in Sources */,
 				809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */,
 				809A4A74265EF90A0048D658 /* Example_34.swift in Sources */,
 				809A4A80265F0D430048D658 /* Example_43.swift in Sources */,
