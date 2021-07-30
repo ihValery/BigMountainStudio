@@ -11,7 +11,8 @@ import SwiftUI
 struct bigMountainStudioApp: App {
     var body: some Scene {
         WindowGroup {
-            NL_InToolbarItem_246()
+            Binding_With_List()
+//            NL_InToolbarItem_246()
 //            NL_Introduction_236()
 //            NV_BarBackButtonHidden_228()
 //            ContentView()
