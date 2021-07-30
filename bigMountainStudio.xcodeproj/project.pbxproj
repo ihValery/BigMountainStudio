@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8064C4CF26B37CFA0048645E /* The Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4CE26B37CFA0048645E /* The Problem.swift */; };
 		80652858265FE04C0001F203 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80652857265FE04C0001F203 /* Buttons.swift */; };
 		8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285C265FE1CC0001F203 /* SegmentedControl.swift */; };
 		8065285F265FF7920001F203 /* Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285E265FF7920001F203 /* Sliders.swift */; };
@@ -67,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8064C4CE26B37CFA0048645E /* The Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Problem.swift"; sourceTree = "<group>"; };
 		80652857265FE04C0001F203 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		8065285C265FE1CC0001F203 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		8065285E265FF7920001F203 /* Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliders.swift; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8064C4CD26B37CD10048645E /* @Binding */ = {
+			isa = PBXGroup;
+			children = (
+				8064C4CE26B37CFA0048645E /* The Problem.swift */,
+			);
+			path = "@Binding";
+			sourceTree = "<group>";
+		};
 		80652859265FE12B0001F203 /* Triggers */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				807A1C9826B3129500751B06 /* @State */,
+				8064C4CD26B37CD10048645E /* @Binding */,
 			);
 			path = "Working with Data";
 			sourceTree = "<group>";
@@ -399,6 +410,7 @@
 				807A1CB026B35F6400751B06 /* Using Previews with @State.swift in Sources */,
 				80F1191726650BF30077153D /* NV_BarBackButtonHidden_228.swift in Sources */,
 				807A1CA626B33E8D00751B06 /* State with Modifiers.swift in Sources */,
+				8064C4CF26B37CFA0048645E /* The Problem.swift in Sources */,
 				80F1191B26652FFB0077153D /* NL_Customization_237.swift in Sources */,
 				806528712660CDB10001F203 /* RotationGesture_76.swift in Sources */,
 				80F1190F2664F9F90077153D /* NV_Introduction_221.swift in Sources */,
