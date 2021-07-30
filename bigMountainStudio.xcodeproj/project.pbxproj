@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8064C4CF26B37CFA0048645E /* The Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4CE26B37CFA0048645E /* The Problem.swift */; };
+		8064C4D126B382F40048645E /* Binding With List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4D026B382F40048645E /* Binding With List.swift */; };
 		80652858265FE04C0001F203 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80652857265FE04C0001F203 /* Buttons.swift */; };
 		8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285C265FE1CC0001F203 /* SegmentedControl.swift */; };
 		8065285F265FF7920001F203 /* Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285E265FF7920001F203 /* Sliders.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		8064C4CE26B37CFA0048645E /* The Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Problem.swift"; sourceTree = "<group>"; };
+		8064C4D026B382F40048645E /* Binding With List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding With List.swift"; sourceTree = "<group>"; };
 		80652857265FE04C0001F203 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		8065285C265FE1CC0001F203 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		8065285E265FF7920001F203 /* Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliders.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				8064C4CE26B37CFA0048645E /* The Problem.swift */,
+				8064C4D026B382F40048645E /* Binding With List.swift */,
 			);
 			path = "@Binding";
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */,
 				80F1191926652E0B0077153D /* NL_Introduction_236.swift in Sources */,
 				807A1C9C26B3159E00751B06 /* Property Wrappers.swift in Sources */,
+				8064C4D126B382F40048645E /* Binding With List.swift in Sources */,
 				809A4A70265EF5DC0048D658 /* Example_32.swift in Sources */,
 				8065286F2660CB130001F203 /* MagnificationGesture_75.swift in Sources */,
 				809A4A72265EF8440048D658 /* Example_33.swift in Sources */,
