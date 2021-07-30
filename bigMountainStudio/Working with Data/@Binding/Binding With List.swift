@@ -31,10 +31,9 @@ struct Binding_With_List: View {
                         destination: EditPersonaView(persona: $people[people.firstIndex(where: { $0.id == item.id
                         })!]),
                         label: {
-                            Text("\(item.firstName) \(item.lastName)")
+                            Text("\(item.firstName + " " + item.lastName)")
                         })
                 }
-
 
                 Spacer()
             }
