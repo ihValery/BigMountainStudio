@@ -12,6 +12,8 @@
 		8064C4D326B38FF70048645E /* Binding With LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4D226B38FF70048645E /* Binding With LazyVStack.swift */; };
 		8064C4D626B44C000048645E /* Introduction - Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4D526B44BFF0048645E /* Introduction - Problem.swift */; };
 		8064C4D826B450590048645E /* Binding to Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4D726B450590048645E /* Binding to Classes.swift */; };
+		8064C4DD26B4642B0048645E /* IntroductionStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4DC26B4642B0048645E /* IntroductionStateObject.swift */; };
+		8064C4DF26B466C10048645E /* WithPickersSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4DE26B466C10048645E /* WithPickersSO.swift */; };
 		80652858265FE04C0001F203 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80652857265FE04C0001F203 /* Buttons.swift */; };
 		8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285C265FE1CC0001F203 /* SegmentedControl.swift */; };
 		8065285F265FF7920001F203 /* Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065285E265FF7920001F203 /* Sliders.swift */; };
@@ -77,6 +79,8 @@
 		8064C4D226B38FF70048645E /* Binding With LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding With LazyVStack.swift"; sourceTree = "<group>"; };
 		8064C4D526B44BFF0048645E /* Introduction - Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Introduction - Problem.swift"; sourceTree = "<group>"; };
 		8064C4D726B450590048645E /* Binding to Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding to Classes.swift"; sourceTree = "<group>"; };
+		8064C4DC26B4642B0048645E /* IntroductionStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionStateObject.swift; sourceTree = "<group>"; };
+		8064C4DE26B466C10048645E /* WithPickersSO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithPickersSO.swift; sourceTree = "<group>"; };
 		80652857265FE04C0001F203 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		8065285C265FE1CC0001F203 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		8065285E265FF7920001F203 /* Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliders.swift; sourceTree = "<group>"; };
@@ -168,6 +172,15 @@
 			path = "@ObservableObject";
 			sourceTree = "<group>";
 		};
+		8064C4DB26B45D0A0048645E /* @StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				8064C4DC26B4642B0048645E /* IntroductionStateObject.swift */,
+				8064C4DE26B466C10048645E /* WithPickersSO.swift */,
+			);
+			path = "@StateObject";
+			sourceTree = "<group>";
+		};
 		80652859265FE12B0001F203 /* Triggers */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +236,7 @@
 				807A1C9826B3129500751B06 /* @State */,
 				8064C4CD26B37CD10048645E /* @Binding */,
 				8064C4D426B44BCF0048645E /* @ObservableObject */,
+				8064C4DB26B45D0A0048645E /* @StateObject */,
 			);
 			path = "Working with Data";
 			sourceTree = "<group>";
@@ -409,12 +423,14 @@
 				809A4A6C265EEF920048D658 /* Example_30.swift in Sources */,
 				806528652660033F0001F203 /* Toggles.swift in Sources */,
 				80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */,
+				8064C4DF26B466C10048645E /* WithPickersSO.swift in Sources */,
 				809A4A6E265EF3310048D658 /* Example_31.swift in Sources */,
 				807A1CA826B356D000751B06 /* Working With Structs.swift in Sources */,
 				8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */,
 				80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */,
 				8065286726600BC50001F203 /* OnAppear.swift in Sources */,
 				80F1192726655A140077153D /* NL_Workaround_247.swift in Sources */,
+				8064C4DD26B4642B0048645E /* IntroductionStateObject.swift in Sources */,
 				8064C4D826B450590048645E /* Binding to Classes.swift in Sources */,
 				8065285F265FF7920001F203 /* Sliders.swift in Sources */,
 				809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */,
