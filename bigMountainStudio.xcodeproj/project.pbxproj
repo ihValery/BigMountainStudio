@@ -187,6 +187,13 @@
 			path = "@StateObject";
 			sourceTree = "<group>";
 		};
+		8064C4E426B475160048645E /* @ObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "@ObservedObject";
+			sourceTree = "<group>";
+		};
 		80652859265FE12B0001F203 /* Triggers */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +250,7 @@
 				8064C4CD26B37CD10048645E /* @Binding */,
 				8064C4D426B44BCF0048645E /* @ObservableObject */,
 				8064C4DB26B45D0A0048645E /* @StateObject */,
+				8064C4E426B475160048645E /* @ObservedObject */,
 			);
 			path = "Working with Data";
 			sourceTree = "<group>";
