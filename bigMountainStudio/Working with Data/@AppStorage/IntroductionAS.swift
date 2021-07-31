@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct IntroductionAS: View {
-    @AppStorage("username") var username = "k.0ff"
-    @AppStorage("background") var background = false
+    @AppStorage(wrappedValue: "k.0ff", "username") var username
+    @AppStorage(wrappedValue: false, "background") var background
+    //Этот инициализатор делает точно то же самое и может быть менее вводящим в заблуждение
+//    @AppStorage("username") var username = "k.0ff"
+//    @AppStorage("background") var background = false
     
     var body: some View {
         NavigationView {
@@ -81,9 +84,16 @@ struct AppStorageEdit: View {
 }
 
 struct IntroductionAS_Previews: PreviewProvider {
+    //Обязательно сделайте его статичным
+    @AppStorage("username") static var username: String!
+    
     static var previews: some View {
-        IntroductionAS()
+        username = "lkjhaj dowjemwjefnwacofjnfjq wjf90wje fmwqiqf[ei f"
         
-        AppStorageEdit()
+        return Group {
+            IntroductionAS()
+            
+            AppStorageEdit()
+        }
     }
 }
