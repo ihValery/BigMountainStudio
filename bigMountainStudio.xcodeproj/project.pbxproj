@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805B7E3926B4DB5A00FAEA1A /* IntroductionAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B7E3826B4DB5A00FAEA1A /* IntroductionAS.swift */; };
+		805B7E3D26B4E5BB00FAEA1A /* What can be stored in AppStorage?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B7E3C26B4E5BB00FAEA1A /* What can be stored in AppStorage?.swift */; };
+		805B7E3F26B4E87200FAEA1A /* Storing a Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B7E3E26B4E87200FAEA1A /* Storing a Struct.swift */; };
 		8064C4CF26B37CFA0048645E /* The Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4CE26B37CFA0048645E /* The Problem.swift */; };
 		8064C4D126B382F40048645E /* Binding With List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4D026B382F40048645E /* Binding With List.swift */; };
 		8064C4D326B38FF70048645E /* Binding With LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C4D226B38FF70048645E /* Binding With LazyVStack.swift */; };
@@ -77,6 +80,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		805B7E3826B4DB5A00FAEA1A /* IntroductionAS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionAS.swift; sourceTree = "<group>"; };
+		805B7E3C26B4E5BB00FAEA1A /* What can be stored in AppStorage?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "What can be stored in AppStorage?.swift"; sourceTree = "<group>"; };
+		805B7E3E26B4E87200FAEA1A /* Storing a Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storing a Struct.swift"; sourceTree = "<group>"; };
 		8064C4CE26B37CFA0048645E /* The Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Problem.swift"; sourceTree = "<group>"; };
 		8064C4D026B382F40048645E /* Binding With List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding With List.swift"; sourceTree = "<group>"; };
 		8064C4D226B38FF70048645E /* Binding With LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding With LazyVStack.swift"; sourceTree = "<group>"; };
@@ -200,6 +206,9 @@
 		8064C4E926B4A0570048645E /* @AppStorage */ = {
 			isa = PBXGroup;
 			children = (
+				805B7E3826B4DB5A00FAEA1A /* IntroductionAS.swift */,
+				805B7E3C26B4E5BB00FAEA1A /* What can be stored in AppStorage?.swift */,
+				805B7E3E26B4E87200FAEA1A /* Storing a Struct.swift */,
 			);
 			path = "@AppStorage";
 			sourceTree = "<group>";
@@ -450,11 +459,13 @@
 				80F11913266502380077153D /* NV_BarHidden_225.swift in Sources */,
 				8064C4DF26B466C10048645E /* WithPickersSO.swift in Sources */,
 				809A4A6E265EF3310048D658 /* Example_31.swift in Sources */,
+				805B7E3926B4DB5A00FAEA1A /* IntroductionAS.swift in Sources */,
 				807A1CA826B356D000751B06 /* Working With Structs.swift in Sources */,
 				8065285D265FE1CC0001F203 /* SegmentedControl.swift in Sources */,
 				80F1191F2665393F0077153D /* NL_PopWithIsActive_240.swift in Sources */,
 				8065286726600BC50001F203 /* OnAppear.swift in Sources */,
 				80F1192726655A140077153D /* NL_Workaround_247.swift in Sources */,
+				805B7E3F26B4E87200FAEA1A /* Storing a Struct.swift in Sources */,
 				8064C4E326B470C90048645E /* Using Previews with @StateObject.swift in Sources */,
 				8064C4DD26B4642B0048645E /* IntroductionStateObject.swift in Sources */,
 				8064C4E826B492810048645E /* IntroductionOO.swift in Sources */,
@@ -490,6 +501,7 @@
 				80652861266000390001F203 /* Steppers.swift in Sources */,
 				809A4A6A265ECA8F0048D658 /* Example_28.swift in Sources */,
 				8064C4E126B46F5F0048645E /* Binding with Other ViewsSO.swift in Sources */,
+				805B7E3D26B4E5BB00FAEA1A /* What can be stored in AppStorage?.swift in Sources */,
 				807A1CA026B317FC00751B06 /* Two-Way Bindings using @State.swift in Sources */,
 				809A4A84265F1A3F0048D658 /* Example_56_challenge.swift in Sources */,
 				807A1CAC26B35A0700751B06 /* Binding With Other Views.swift in Sources */,
