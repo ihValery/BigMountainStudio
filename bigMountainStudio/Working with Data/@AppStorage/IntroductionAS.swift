@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct IntroductionAS: View {
-    @AppStorage(wrappedValue: "k.0ff", "username") var username
+    @AppStorage(wrappedValue: "1-----1", "username") var username
     @AppStorage(wrappedValue: false, "background") var background
     //Этот инициализатор делает точно то же самое и может быть менее вводящим в заблуждение
 //    @AppStorage("username") var username = "k.0ff"
