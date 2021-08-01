@@ -43,6 +43,7 @@
 		807A1CAC26B35A0700751B06 /* Binding With Other Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CAB26B35A0700751B06 /* Binding With Other Views.swift */; };
 		807A1CAE26B35BE500751B06 /* Working With Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CAD26B35BE500751B06 /* Working With Classes.swift */; };
 		807A1CB026B35F6400751B06 /* Using Previews with @State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A1CAF26B35F6400751B06 /* Using Previews with @State.swift */; };
+		8080D65F26B7402B002BCBFB /* IntroductionSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D65E26B7402B002BCBFB /* IntroductionSS.swift */; };
 		809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */; };
 		809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A39265EA2B80048D658 /* ContentView.swift */; };
 		809A4A3C265EA2BB0048D658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809A4A3B265EA2BB0048D658 /* Assets.xcassets */; };
@@ -116,6 +117,7 @@
 		807A1CAB26B35A0700751B06 /* Binding With Other Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding With Other Views.swift"; sourceTree = "<group>"; };
 		807A1CAD26B35BE500751B06 /* Working With Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Working With Classes.swift"; sourceTree = "<group>"; };
 		807A1CAF26B35F6400751B06 /* Using Previews with @State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Using Previews with @State.swift"; sourceTree = "<group>"; };
+		8080D65E26B7402B002BCBFB /* IntroductionSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionSS.swift; sourceTree = "<group>"; };
 		809A4A34265EA2B80048D658 /* bigMountainStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigMountainStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigMountainStudioApp.swift; sourceTree = "<group>"; };
 		809A4A39265EA2B80048D658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				8064C4DB26B45D0A0048645E /* @StateObject */,
 				8064C4E426B475160048645E /* @ObservedObject */,
 				8064C4E926B4A0570048645E /* @AppStorage */,
+				8080D65D26B74005002BCBFB /* @SceneStorage */,
 			);
 			path = "Working with Data";
 			sourceTree = "<group>";
@@ -291,6 +294,14 @@
 				807A1CAF26B35F6400751B06 /* Using Previews with @State.swift */,
 			);
 			path = "@State";
+			sourceTree = "<group>";
+		};
+		8080D65D26B74005002BCBFB /* @SceneStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8080D65E26B7402B002BCBFB /* IntroductionSS.swift */,
+			);
+			path = "@SceneStorage";
 			sourceTree = "<group>";
 		};
 		809A4A2B265EA2B80048D658 = {
@@ -504,6 +515,7 @@
 				805B7E3D26B4E5BB00FAEA1A /* What can be stored in AppStorage?.swift in Sources */,
 				807A1CA026B317FC00751B06 /* Two-Way Bindings using @State.swift in Sources */,
 				809A4A84265F1A3F0048D658 /* Example_56_challenge.swift in Sources */,
+				8080D65F26B7402B002BCBFB /* IntroductionSS.swift in Sources */,
 				807A1CAC26B35A0700751B06 /* Binding With Other Views.swift in Sources */,
 				809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */,
 				809A4A74265EF90A0048D658 /* Example_34.swift in Sources */,
