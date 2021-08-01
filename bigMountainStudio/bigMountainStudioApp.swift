@@ -11,7 +11,9 @@ import SwiftUI
 struct bigMountainStudioApp: App {
     var body: some Scene {
         WindowGroup {
-            IntroductionEO()
+            Not_Available_in_init()
+                .environmentObject(UserViewModel())
+//            IntroductionEO()
 //            IntroductionSS()
 //            IntroductionAS()
 //            Binding_With_List()

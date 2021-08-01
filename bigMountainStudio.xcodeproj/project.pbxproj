@@ -46,6 +46,7 @@
 		8080D65F26B7402B002BCBFB /* IntroductionSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D65E26B7402B002BCBFB /* IntroductionSS.swift */; };
 		8080D66226B750F4002BCBFB /* IntroductionEO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66126B750F4002BCBFB /* IntroductionEO.swift */; };
 		8080D66626B75983002BCBFB /* On Parent View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66526B75983002BCBFB /* On Parent View.swift */; };
+		8080D66A26B76076002BCBFB /* Not Available in init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66926B76076002BCBFB /* Not Available in init.swift */; };
 		809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */; };
 		809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A39265EA2B80048D658 /* ContentView.swift */; };
 		809A4A3C265EA2BB0048D658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809A4A3B265EA2BB0048D658 /* Assets.xcassets */; };
@@ -122,6 +123,7 @@
 		8080D65E26B7402B002BCBFB /* IntroductionSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionSS.swift; sourceTree = "<group>"; };
 		8080D66126B750F4002BCBFB /* IntroductionEO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionEO.swift; sourceTree = "<group>"; };
 		8080D66526B75983002BCBFB /* On Parent View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "On Parent View.swift"; sourceTree = "<group>"; };
+		8080D66926B76076002BCBFB /* Not Available in init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Not Available in init.swift"; sourceTree = "<group>"; };
 		809A4A34265EA2B80048D658 /* bigMountainStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigMountainStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigMountainStudioApp.swift; sourceTree = "<group>"; };
 		809A4A39265EA2B80048D658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 			children = (
 				8080D66126B750F4002BCBFB /* IntroductionEO.swift */,
 				8080D66526B75983002BCBFB /* On Parent View.swift */,
+				8080D66926B76076002BCBFB /* Not Available in init.swift */,
 			);
 			path = "@EnvironmentObject";
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				807A1CA026B317FC00751B06 /* Two-Way Bindings using @State.swift in Sources */,
 				809A4A84265F1A3F0048D658 /* Example_56_challenge.swift in Sources */,
 				8080D65F26B7402B002BCBFB /* IntroductionSS.swift in Sources */,
+				8080D66A26B76076002BCBFB /* Not Available in init.swift in Sources */,
 				807A1CAC26B35A0700751B06 /* Binding With Other Views.swift in Sources */,
 				809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */,
 				809A4A74265EF90A0048D658 /* Example_34.swift in Sources */,
