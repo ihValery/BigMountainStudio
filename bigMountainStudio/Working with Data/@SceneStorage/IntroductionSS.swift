@@ -57,12 +57,12 @@ struct IntroductionSS_Previews: PreviewProvider {
     @SceneStorage("textInput") var textInput = ""
     
     static var previews: some View {
-        Group {
-            IntroductionSS()
-
-            NavigationView {
+//        Group {
+//            IntroductionSS()
+//
+//            NavigationView {
         IntroDestination(textInput: .init(wrappedValue: "textInput", "textInput"), textTwo: "textTwo")
-            }
-        }
+//            }
+//        }
     }
 }
