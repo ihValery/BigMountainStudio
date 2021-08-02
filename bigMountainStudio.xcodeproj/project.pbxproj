@@ -47,6 +47,8 @@
 		8080D66226B750F4002BCBFB /* IntroductionEO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66126B750F4002BCBFB /* IntroductionEO.swift */; };
 		8080D66626B75983002BCBFB /* On Parent View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66526B75983002BCBFB /* On Parent View.swift */; };
 		8080D66A26B76076002BCBFB /* Not Available in init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66926B76076002BCBFB /* Not Available in init.swift */; };
+		8080D66D26B76938002BCBFB /* Mock Data - View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66C26B76938002BCBFB /* Mock Data - View.swift */; };
+		8080D66F26B76CF9002BCBFB /* DogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080D66E26B76CF9002BCBFB /* DogsView.swift */; };
 		809A4A38265EA2B80048D658 /* bigMountainStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */; };
 		809A4A3A265EA2B80048D658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4A39265EA2B80048D658 /* ContentView.swift */; };
 		809A4A3C265EA2BB0048D658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809A4A3B265EA2BB0048D658 /* Assets.xcassets */; };
@@ -124,6 +126,8 @@
 		8080D66126B750F4002BCBFB /* IntroductionEO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionEO.swift; sourceTree = "<group>"; };
 		8080D66526B75983002BCBFB /* On Parent View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "On Parent View.swift"; sourceTree = "<group>"; };
 		8080D66926B76076002BCBFB /* Not Available in init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Not Available in init.swift"; sourceTree = "<group>"; };
+		8080D66C26B76938002BCBFB /* Mock Data - View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock Data - View.swift"; sourceTree = "<group>"; };
+		8080D66E26B76CF9002BCBFB /* DogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsView.swift; sourceTree = "<group>"; };
 		809A4A34265EA2B80048D658 /* bigMountainStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigMountainStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809A4A37265EA2B80048D658 /* bigMountainStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigMountainStudioApp.swift; sourceTree = "<group>"; };
 		809A4A39265EA2B80048D658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -281,6 +285,7 @@
 				8064C4E926B4A0570048645E /* @AppStorage */,
 				8080D65D26B74005002BCBFB /* @SceneStorage */,
 				8080D66026B74C26002BCBFB /* @EnvironmentObject */,
+				8080D66B26B76524002BCBFB /* Architecture */,
 			);
 			path = "Working with Data";
 			sourceTree = "<group>";
@@ -319,6 +324,15 @@
 				8080D66926B76076002BCBFB /* Not Available in init.swift */,
 			);
 			path = "@EnvironmentObject";
+			sourceTree = "<group>";
+		};
+		8080D66B26B76524002BCBFB /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				8080D66C26B76938002BCBFB /* Mock Data - View.swift */,
+				8080D66E26B76CF9002BCBFB /* DogsView.swift */,
+			);
+			name = Architecture;
 			sourceTree = "<group>";
 		};
 		809A4A2B265EA2B80048D658 = {
@@ -497,10 +511,12 @@
 				8064C4E326B470C90048645E /* Using Previews with @StateObject.swift in Sources */,
 				8064C4DD26B4642B0048645E /* IntroductionStateObject.swift in Sources */,
 				8064C4E826B492810048645E /* IntroductionOO.swift in Sources */,
+				8080D66F26B76CF9002BCBFB /* DogsView.swift in Sources */,
 				8064C4D826B450590048645E /* Binding to Classes.swift in Sources */,
 				8065285F265FF7920001F203 /* Sliders.swift in Sources */,
 				809A4A86265F1FAD0048D658 /* Example_57_challenge.swift in Sources */,
 				80F1191926652E0B0077153D /* NL_Introduction_236.swift in Sources */,
+				8080D66D26B76938002BCBFB /* Mock Data - View.swift in Sources */,
 				807A1C9C26B3159E00751B06 /* Property Wrappers.swift in Sources */,
 				8064C4D126B382F40048645E /* Binding With List.swift in Sources */,
 				809A4A70265EF5DC0048D658 /* Example_32.swift in Sources */,
