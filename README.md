@@ -59,3 +59,4 @@ Working with Data in SwiftUI
         ...
         TextField("Enter name", text: $message)
         Вам понадобится $, чтобы включить отправку данных обратно в источник.
+        11
