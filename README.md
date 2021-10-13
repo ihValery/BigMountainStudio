@@ -58,5 +58,4 @@ Working with Data in SwiftUI
         @ State private var message = “Hello, World!”
         ...
         TextField("Enter name", text: $message)
-        Вам понадобится $, чтобы включить отправку данных обратно в источник.
-        Й
+        Вам понадобится $, чтобы включить отправку данных обратно в источник
